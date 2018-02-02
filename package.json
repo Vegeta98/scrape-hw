@@ -1,0 +1,29 @@
+{
+  "name": "scrape-hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scrapper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vegeta98/scrape-hw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vegeta98/scrape-hw/issues"
+  },
+  "homepage": "https://github.com/Vegeta98/scrape-hw#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "mongojs": "^2.4.1",
+    "mongoose": "^5.0.3",
+    "require": "^2.4.20",
+    "scrapper": "^1.0.1"
+  }
+}
